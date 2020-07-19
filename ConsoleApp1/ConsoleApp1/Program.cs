@@ -227,9 +227,9 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            var path = @"C:\Users\markw\OneDrive\Documents\School Work\UF\Year 2\Summer 2019\CDA 3520\PA2\inputFile.txt";
+            //var path = @"C:\Users\markw\OneDrive\Documents\School Work\UF\Year 2\Summer 2019\CDA 3520\PA2\inputFile.txt";
             // Takes an inputFile from arrguments and reads the first line, expection two integers
-            var inputFile = new System.IO.StreamReader(path);
+            var inputFile = new System.IO.StreamReader(args[0]);
             string line = inputFile.ReadLine();
             string[] splitLines = line.Split(' ');
             // Initializes these to zero, in case the input is invalid
