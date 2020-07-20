@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PageRank2.0": {
+      "commandName": "Project",
+      "commandLineArgs": "inputFile.txt"
+    }
+  }
+}
